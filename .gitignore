@@ -1,5 +1,6 @@
 # Ignore generated files
 # ...
+build
 
 # Ignore VIM's backup generated files
 *.swp
@@ -51,6 +52,7 @@ packages/
 *.o
 *.exe
 *.a
+*.app
 *.bc
 *.so
 *.so.*
@@ -88,7 +90,6 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-build
 
 # Ignore GNU global tags
 GPATH
@@ -98,7 +99,6 @@ GTAGS
 # Zig programming language
 zig-cache/
 zig-out/
-build/
 build-*/
 docgen_tmp/
 
